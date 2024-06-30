@@ -73,27 +73,6 @@
                 </div>
 
                 <div class="col-sm-6">
-                  <label class="col-form-label">Mission Description</label>
-                  <textarea
-                    class="form-control"
-                    row="3"
-                    placeholder="Enter your message"
-                    formControlName="missionDescription"
-                  ></textarea>
-                  <span
-                    class="text-danger"
-                    *ngIf="
-                      missionDescription.invalid &&
-                      (missionDescription.touched || formValid)
-                    "
-                  >
-                    Please Enter Mission Description
-                  </span>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-6">
                   <label class="col-form-label">Mission Theme</label>
                   <input
                     type="text"
@@ -112,14 +91,35 @@
                   </span>
                 </div>
 
-                <div class="col-sm-6">
-                  <label class="col-form-label">Total seats</label>
-                  <input
-                    type="number"
-                    class="form-control"
-                    placeholder="Enter total seets"
-                    formControlName="totalSheets"
-                  />
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label class="col-form-label">Mission Description</label>
+                    <textarea
+                      class="form-control"
+                      row="3"
+                      placeholder="Enter your message"
+                      formControlName="missionDescription"
+                    ></textarea>
+                    <span
+                      class="text-danger"
+                      *ngIf="
+                        missionDescription.invalid &&
+                        (missionDescription.touched || formValid)
+                      "
+                    >
+                      Please Enter Mission Description
+                    </span>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <label class="col-form-label">Total seats</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      placeholder="Enter total seets"
+                      formControlName="totalSheets"
+                    />
+                  </div>
                 </div>
               </div>
 
