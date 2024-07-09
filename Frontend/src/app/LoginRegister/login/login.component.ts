@@ -31,6 +31,12 @@ export class LoginComponent implements OnInit {
   get password() {
     return this.loginForm.get('password') as FormControl;
   }
+  OnRegisterClick(){
+    this.router.navigate(['/register']);
+  }
+  OnPrivacyPolicyClick(){
+    this.router.navigate(['/privacyPolicy']);
+  }
   OnSubmit() {
     this.formValid = true;
     if (this.loginForm.valid) {
