@@ -17,7 +17,7 @@ export class AdminsideServiceService {
     public router: Router
   ) {}
   // apiUrl:string='http://localhost:63943/api';
-  apiUrl: string = 'http://localhost:56577/api';
+  apiUrl: string = 'http://localhost:5140/api';
   imageUrl: string = 'http://localhost:56577';
 
   //User
@@ -57,7 +57,7 @@ export class AdminsideServiceService {
     return this.http.get<MissionSkill[]>(`${this.apiUrl}/Mission/GetMissionSkillList`);
   }
   UploadImage(data: any) {
-    return this.http.post(`${this.apiUrl}/Common/UploadImage`,data);
+    return this.http.post(`${this.apiUrl}/Mission/UploadImage`,data);
   }
   UploadDoc(data: any) {
     return this.http.post(`${this.apiUrl}/Mission/UploadImage`,data);
@@ -80,7 +80,7 @@ export class AdminsideServiceService {
     return this.http.post(`${this.apiUrl}/Mission/AddMission`, data);
   }
   UpdateMission(data: Mission) {
-    return this.http.post(`${this.apiUrl}/Mission/UpdateMission`, data);
+    return this.http.put(`${this.apiUrl}/Mission/UpdateMission`, data);
   }
   DeleteMission(data: any) {
     return this.http.delete(`${this.apiUrl}/Mission/DeleteMission/${data}`);
@@ -89,7 +89,7 @@ export class AdminsideServiceService {
   //Mission Application
   MissionApplicationList(): Observable<MissionApplication[]> {
     return this.http.get<MissionApplication[]>(
-      `${this.apiUrl}/Mission/MissionApplicationList`
+      `${this.apiUrl}/AdminUser/MissionApplicationList`
     );
   }
 
@@ -116,7 +116,7 @@ export class AdminsideServiceService {
     return this.http.post(`${this.apiUrl}/MissionTheme/AddMissionTheme`, data);
   }
   UpdateMissionTheme(data: MissionTheme) {
-    return this.http.post(
+    return this.http.put(
       `${this.apiUrl}/MissionTheme/UpdateMissionTheme`,
       data
     );
@@ -142,7 +142,7 @@ export class AdminsideServiceService {
     return this.http.post(`${this.apiUrl}/MissionSkill/AddMissionSkill`, data);
   }
   UpdateMissionSkill(data: MissionSkill) {
-    return this.http.post(
+    return this.http.put(
       `${this.apiUrl}/MissionSkill/UpdateMissionSkill`,
       data
     );

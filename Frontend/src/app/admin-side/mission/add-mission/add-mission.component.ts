@@ -81,6 +81,8 @@ export class AddMissionComponent implements OnInit {
     this.service.CountryList().subscribe((data: any) => {
       if (data.result == 1) {
         this.countryList = data.data;
+        console.log(this.countryList);
+        
       } else {
         this.toast.error({ detail: "ERROR", summary: data.message, duration: 3000 });
       }
@@ -102,6 +104,8 @@ export class AddMissionComponent implements OnInit {
     this.service.GetMissionSkillList().subscribe((data: any) => {
       if (data.result == 1) {
         this.missionSkillList = data.data;
+        console.log(this.missionSkillList);
+        
       } else {
         this.toast.error({ detail: "ERROR", summary: data.message, duration: 3000 });
       }
@@ -112,6 +116,8 @@ export class AddMissionComponent implements OnInit {
     this.service.GetMissionThemeList().subscribe((data: any) => {
       if (data.result == 1) {
         this.missionThemeList = data.data;
+        console.log(this.missionThemeList);
+        
       } else {
         this.toast.error({ detail: "ERROR", summary: data.message, duration: 3000 });
       }
@@ -123,6 +129,8 @@ export class AddMissionComponent implements OnInit {
     if (this.imageListArray.length > 5) {
       return this.toast.error({ detail: "ERROR", summary: "Maximum 6 images can be added.", duration: 3000 });
     }
+    console.log(files);
+    
     if (files) {
       this.formData = new FormData();
       for (const file of files) {
@@ -137,6 +145,8 @@ export class AddMissionComponent implements OnInit {
         this.formData.append('moduleName', 'Mission');
       }
       console.log(this.formData);
+      console.log(this.imageListArray);
+      
     }
   }
 
@@ -148,9 +158,9 @@ export class AddMissionComponent implements OnInit {
     if (this.addMissionForm.valid) {
       if (this.imageListArray.length > 0) {
         await this.service.UploadImage(this.formData).pipe().toPromise().then((res: any) => {
-          if (res.success) {
-            imageUrl = res.data;
-          }
+          console.log(res);
+            imageUrl = res;
+            console.log(imageUrl);
         }, err => { this.toast.error({ detail: "ERROR", summary: err.message, duration: 3000 }) });
       }
       let imgUrlList = imageUrl.map(e => e.replace(/\s/g, "")).join(",");

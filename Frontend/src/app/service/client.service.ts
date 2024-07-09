@@ -12,8 +12,8 @@ import { VolunteeringGoals, VolunteeringHours } from '../model/volunteering.mode
 export class ClientService {
 
   constructor(private http:HttpClient) { }
-  apiUrl:string='http://localhost:56577/api';
-  imageUrl:string='http://localhost:56577';
+  apiUrl:string='http://localhost:5140/api';
+  imageUrl:string='http://localhost:5140';
 
   //HomePage
   MissionList(userId:any):Observable<Mission[]>{

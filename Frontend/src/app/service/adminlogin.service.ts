@@ -7,8 +7,8 @@ import {JwtHelperService} from  '@auth0/angular-jwt';
   providedIn: 'root'
 })
 export class AdminloginService {
-  apiUrl:string='http://localhost:56577/api/Login';
-  imageUrl:string='http://localhost:56577';
+  apiUrl:string='http://localhost:5140/api/Login';
+  imageUrl:string='http://localhost:5140';
 
   currentUser : BehaviorSubject<any> = new BehaviorSubject(null);
   currentUserName : BehaviorSubject<any> = new BehaviorSubject(null);
@@ -29,16 +29,25 @@ export class AdminloginService {
       `${this.apiUrl}/GetUserById/${id}`
     );
   }
-  UpdateUser(data: user) {
-    return this.http.post(`${this.apiUrl}/UpdateUser`, data);
+  UpdateUser(user: user) {
+    return this.http.put(`${this.apiUrl}/UpdateUser`, user,{responseType:'json'});
   }
 
   loginUser(loginInfo:Array<string>){
     return this.http.post(`${this.apiUrl}/LoginUser`,{
       EmailAddress : loginInfo[0],
-      Password : loginInfo[1]
+      Password : loginInfo[1],
+      Uid:"string",
+      UserType:"admin",
+      FirstName:"mann",
+      LastName:"patel",
+      PhoneNumber:"99",
+      UserFullName:"string",
+      Message:"msg",
+      ConfirmPassword:"string"
     },{responseType:'json'});
   }
+
 
   ForgotPasswordEmailCheck(data:any){
     return this.http.post(`${this.apiUrl}/ForgotPassword`,data);

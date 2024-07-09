@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA1EF13-8113-4C40-ACEA-6CC2F53BDD06}|Data_Logic_Layer\\Data_Logic_Layer.csproj|d:\\projects\\vitrual_community_support\\backend\\ciplatformwebapi_v1\\data_logic_layer\\dalmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA1EF13-8113-4C40-ACEA-6CC2F53BDD06}|Data_Logic_Layer\\Data_Logic_Layer.csproj|solutionrelative:data_logic_layer\\dalmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA1EF13-8113-4C40-ACEA-6CC2F53BDD06}|Data_Logic_Layer\\Data_Logic_Layer.csproj|d:\\projects\\vitrual_community_support\\backend\\ciplatformwebapi_v1\\data_logic_layer\\entity\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA1EF13-8113-4C40-ACEA-6CC2F53BDD06}|Data_Logic_Layer\\Data_Logic_Layer.csproj|solutionrelative:data_logic_layer\\entity\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA1EF13-8113-4C40-ACEA-6CC2F53BDD06}|Data_Logic_Layer\\Data_Logic_Layer.csproj|d:\\projects\\vitrual_community_support\\backend\\ciplatformwebapi_v1\\data_logic_layer\\entity\\missiontheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA1EF13-8113-4C40-ACEA-6CC2F53BDD06}|Data_Logic_Layer\\Data_Logic_Layer.csproj|solutionrelative:data_logic_layer\\entity\\missiontheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F60B0968-5CBF-43CA-B128-957F447E8DE0}|CIPlatFormWebApi_V1\\CIPlatFormWebApi_V1.csproj|d:\\projects\\vitrual_community_support\\backend\\ciplatformwebapi_v1\\ciplatformwebapi_v1\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60B0968-5CBF-43CA-B128-957F447E8DE0}|CIPlatFormWebApi_V1\\CIPlatFormWebApi_V1.csproj|solutionrelative:ciplatformwebapi_v1\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA1EF13-8113-4C40-ACEA-6CC2F53BDD06}|Data_Logic_Layer\\Data_Logic_Layer.csproj|d:\\projects\\vitrual_community_support\\backend\\ciplatformwebapi_v1\\data_logic_layer\\dalmissiontheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA1EF13-8113-4C40-ACEA-6CC2F53BDD06}|Data_Logic_Layer\\Data_Logic_Layer.csproj|solutionrelative:data_logic_layer\\dalmissiontheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F60B0968-5CBF-43CA-B128-957F447E8DE0}|CIPlatFormWebApi_V1\\CIPlatFormWebApi_V1.csproj|d:\\projects\\vitrual_community_support\\backend\\ciplatformwebapi_v1\\ciplatformwebapi_v1\\controllers\\missionthemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60B0968-5CBF-43CA-B128-957F447E8DE0}|CIPlatFormWebApi_V1\\CIPlatFormWebApi_V1.csproj|solutionrelative:ciplatformwebapi_v1\\controllers\\missionthemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MissionController.cs",
+              "DocumentMoniker": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\CIPlatFormWebApi_V1\\Controllers\\MissionController.cs",
+              "RelativeDocumentMoniker": "CIPlatFormWebApi_V1\\Controllers\\MissionController.cs",
+              "ToolTip": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\CIPlatFormWebApi_V1\\Controllers\\MissionController.cs",
+              "RelativeToolTip": "CIPlatFormWebApi_V1\\Controllers\\MissionController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:02:24.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DALMission.cs",
+              "DocumentMoniker": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\Data_Logic_Layer\\DALMission.cs",
+              "RelativeDocumentMoniker": "Data_Logic_Layer\\DALMission.cs",
+              "ToolTip": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\Data_Logic_Layer\\DALMission.cs",
+              "RelativeToolTip": "Data_Logic_Layer\\DALMission.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvyEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:02:36.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MissionThemeController.cs",
+              "DocumentMoniker": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\CIPlatFormWebApi_V1\\Controllers\\MissionThemeController.cs",
+              "RelativeDocumentMoniker": "CIPlatFormWebApi_V1\\Controllers\\MissionThemeController.cs",
+              "ToolTip": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\CIPlatFormWebApi_V1\\Controllers\\MissionThemeController.cs",
+              "RelativeToolTip": "CIPlatFormWebApi_V1\\Controllers\\MissionThemeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:02:49.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DALMissionTheme.cs",
+              "DocumentMoniker": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\Data_Logic_Layer\\DALMissionTheme.cs",
+              "RelativeDocumentMoniker": "Data_Logic_Layer\\DALMissionTheme.cs",
+              "ToolTip": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\Data_Logic_Layer\\DALMissionTheme.cs",
+              "RelativeToolTip": "Data_Logic_Layer\\DALMissionTheme.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:03:06.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mission.cs",
+              "DocumentMoniker": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\Data_Logic_Layer\\Entity\\Mission.cs",
+              "RelativeDocumentMoniker": "Data_Logic_Layer\\Entity\\Mission.cs",
+              "ToolTip": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\Data_Logic_Layer\\Entity\\Mission.cs",
+              "RelativeToolTip": "Data_Logic_Layer\\Entity\\Mission.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwCYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T11:40:02.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MissionTheme.cs",
+              "DocumentMoniker": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\Data_Logic_Layer\\Entity\\MissionTheme.cs",
+              "RelativeDocumentMoniker": "Data_Logic_Layer\\Entity\\MissionTheme.cs",
+              "ToolTip": "D:\\Projects\\Vitrual_Community_Support\\Backend\\CIPlatFormWebApi_V1\\Data_Logic_Layer\\Entity\\MissionTheme.cs",
+              "RelativeToolTip": "Data_Logic_Layer\\Entity\\MissionTheme.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T11:40:08.504Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
